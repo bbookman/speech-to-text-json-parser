@@ -3,7 +3,7 @@ package com.bookmanb.json.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import org.apache.commons.lang.builder.ToStringBuilder;
+
 
 public class Metadata {
 
@@ -36,9 +36,5 @@ public class Metadata {
         return lastUpdateTime;
     }
 
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this).append("type", type).append("progressPercent", progressPercent).append("startTime", startTime).append("lastUpdateTime", lastUpdateTime).toString();
-    }
 
 }

@@ -4,7 +4,6 @@ package com.bookmanb.json.model;
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import org.apache.commons.lang.builder.ToStringBuilder;
 
 public class Result {
 
@@ -23,9 +22,5 @@ public class Result {
         return languageCode;
     }
 
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this).append("alternatives", alternatives).append("languageCode", languageCode).toString();
-    }
 
 }

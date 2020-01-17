@@ -3,7 +3,6 @@ package com.bookmanb.json.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import org.apache.commons.lang.builder.ToStringBuilder;
 
 public class Data {
 
@@ -34,11 +33,6 @@ public class Data {
 
     public Response getResponse() {
         return response;
-    }
-
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this).append("name", name).append("metadata", metadata).append("done", done).append("response", response).toString();
     }
 
 }

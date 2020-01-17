@@ -4,7 +4,7 @@ package com.bookmanb.json.model;
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import org.apache.commons.lang.builder.ToStringBuilder;
+
 
 public class Response {
 
@@ -19,13 +19,8 @@ public class Response {
         return type;
     }
 
-    public void setResults(List<Result> results) {
-        this.results = results;
-    }
-
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this).append("type", type).append("results", results).toString();
+    public List<Result> getResults() {
+        return results;
     }
 
 }

@@ -3,7 +3,7 @@ package com.bookmanb.json.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import org.apache.commons.lang.builder.ToStringBuilder;
+
 
 public class Alternative {
 
@@ -22,9 +22,6 @@ public class Alternative {
         return confidence;
     }
 
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this).append("transcript", transcript).append("confidence", confidence).toString();
-    }
+
 
 }
