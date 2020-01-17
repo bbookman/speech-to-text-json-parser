@@ -13,15 +13,26 @@ import java.util.List;
 
 public class parse {
     public static void main(String[] args) {
+        String path = new String();
+        if (args.length > 0){
+            try {
+                 path = args[0];
+
+            } catch (Exception e) {
+                System.out.println("Please provide a path to the JSON file you wish to parse");
+                System.out.println(e);
+            }
+
+            System.out.println(path);
+        }
+
         Data data;
         StringBuilder transcript = new StringBuilder();
 
         try {
-
-            String file_location = "/Users/bookmanb/Dev/json_parser/testJSON/video.json";
             Gson gson = new Gson();
 
-            data = gson.fromJson(new FileReader(file_location), Data.class);
+            data = gson.fromJson(new FileReader(path), Data.class);
 
             List<Result> results = data.getResponse().getResults();
             for (Result result: results) {
@@ -34,6 +45,7 @@ public class parse {
             }
 
         } catch (FileNotFoundException e) {
+            System.out.println("Command line requirements: valid path to JSON file");
             e.printStackTrace();
         }
         System.out.println(transcript);
