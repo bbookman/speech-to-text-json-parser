@@ -1,0 +1,111 @@
+{
+  "name": "513468893961199527",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.speech.v1p1beta1.LongRunningRecognizeMetadata",
+    "progressPercent": 100,
+    "startTime": "2020-01-15T18:58:46.016237Z",
+    "lastUpdateTime": "2020-01-15T18:58:59.452757Z"
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.cloud.speech.v1p1beta1.LongRunningRecognizeResponse",
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Okay, I'm here.",
+            "confidence": 0.8699329
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Hi, I'd like to buy a Chromecast and I was wondering whether you could help me with that.",
+            "confidence": 0.8672398
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " That certainly which color would you like? We have blue black and red.",
+            "confidence": 0.91283864
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Ed let's get the black one.",
+            "confidence": 0.6692747
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " One, okay, great. Would you like the new Chromecast Ultra model or the regular Chromecast?",
+            "confidence": 0.87483335
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Regular Chromecast is fine.",
+            "confidence": 0.907672
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " I'm okay. Sure. Would you like to ship it regular or Express?",
+            "confidence": 0.8334971
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Express, please.",
+            "confidence": 0.7613428
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " He's terrific. It's on the way. Thank you very much. Thank you.",
+            "confidence": 0.7726103
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " You bye.",
+            "confidence": 0.687768
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {}
+        ],
+        "languageCode": "en-us"
+      }
+    ]
+  }
+}

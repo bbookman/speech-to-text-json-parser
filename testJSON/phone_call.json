@@ -1,0 +1,105 @@
+{
+  "name": "3602595473340924073",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.speech.v1p1beta1.LongRunningRecognizeMetadata",
+    "progressPercent": 100,
+    "startTime": "2020-01-15T18:57:25.070865Z",
+    "lastUpdateTime": "2020-01-15T18:57:35.849629Z"
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.cloud.speech.v1p1beta1.LongRunningRecognizeResponse",
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "I'm here.",
+            "confidence": 0.7813856
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Hi, I'd like to buy a Chrome Cast and I was wondering whether you could help me with that.",
+            "confidence": 0.78348505
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Hulu which color would you like? We have blue black and breath",
+            "confidence": 0.7138377
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Let's get the black one.",
+            "confidence": 0.78478706
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Okay, Chris, would you like the New Concord Ultra model or the regular Comcast?",
+            "confidence": 0.70875615
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " regular Chrome Cast design",
+            "confidence": 0.6472962
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Okay. Sure. Would you like to ship it regular or Express?",
+            "confidence": 0.6651232
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Express, please.",
+            "confidence": 0.75296134
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Terrific. It's on the way. Thank you very much. Thank you.",
+            "confidence": 0.71886796
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Bye.",
+            "confidence": 0.7384932
+          }
+        ],
+        "languageCode": "en-us"
+      }
+    ]
+  }
+}
