@@ -1,3 +1,10 @@
+/*
+
+        Fantastic tool for generating models from JSON: http://www.jsonschema2pojo.org/
+
+ */
+
+
 package com.bookmanb.json.gson;
 
 import com.bookmanb.json.model.Alternative;
@@ -5,11 +12,11 @@ import com.bookmanb.json.model.Data;
 
 import com.bookmanb.json.model.Result;
 import com.google.gson.Gson;
-
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.List;
+import java.io.FileWriter;
+import org.apache.commons.lang3.StringUtils;
 
 public class parse {
     public static void main(String[] args) {
@@ -48,7 +55,23 @@ public class parse {
             System.out.println("Command line requirements: valid path to JSON file");
             e.printStackTrace();
         }
-        System.out.println(transcript);
+
+        String result_file = StringUtils.remove(path, ".json");
+        result_file += ".txt";
+        try {
+            FileWriter writer = new FileWriter(result_file);
+            System.out.println(transcript);
+
+            //  NO TRANSCRIPT WRITTEN
+
+            writer.write("testing123");
+            writer.write( transcript.toString());
+        } catch (java.io.IOException e) {
+            System.out.println("Error writing transcription results to " + result_file );
+            System.out.println(e);
+        }
+        System.out.println("Wrote transcript to " +result_file );
+
     }
 }
 
