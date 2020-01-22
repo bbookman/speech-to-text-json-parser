@@ -61,10 +61,6 @@ public class parse {
         try {
             FileWriter writer = new FileWriter(result_file);
             System.out.println(transcript);
-
-            //  NO TRANSCRIPT WRITTEN
-
-            writer.write("testing123");
             writer.write( transcript.toString());
         } catch (java.io.IOException e) {
             System.out.println("Error writing transcription results to " + result_file );
